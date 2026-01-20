@@ -9,6 +9,12 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
+<!-- Now we are using the new dependency of rclcpp for actions! -->
+  <depend>rclcpp</depend>
+  <depend>rclcpp_action</depend>
+  <depend>sandbox_interfaces</depend>
+
+
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
