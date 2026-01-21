@@ -1,3 +1,12 @@
+# Goal: What the client wants the robot to do
+float64 goal_distance
+---
+# Result: What the server sends back when finished
+bool reached
+---
+# Feedback: Updates sent periodically during execution
+float64 remaining_distance
+
 # The .action file is built for a client-server interaction.
 # The client sends a command to the server and the server does something accordingly.
 # The .action file is the architecture of the structure of the conversation between the two.
