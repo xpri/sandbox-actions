@@ -1,0 +1,10 @@
+# The .action file is built for a client-server interaction.
+# The client sends a command to the server and the server does something accordingly.
+# The .action file is the architecture of the structure of the conversation between the two.
+
+# The .action file is split up into three different sections.
+# Each section defines a specific data structure used at different stages of the process.
+# The goal, the result, the feedback (each seperated with ---)
+# The goal is the request that the client sends.
+# The result is what the server sends back when it ends the tasks (either in error or success)
+# THe feedback is what the server sends back while it executes the goal.
